@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<hello></hello> <!-- déclaration de mon tag -->
+<hr>
+<hi></hi> <!-- déclaration de mon tag -->
+
+<script src="js/bower_components/riot/riot.js"></script>
+<script src="js/tags/hello.js"></script>
+<script src="js/tags/hi.js"></script>
+<script>
+    riot.mount("hello", null); /* le 1er paramètre est le nom du tag */
+    riot.mount("hi", {
+        title: "all",
+        humans: [
+            {name: "John Doe"},
+            {name: "Jane Doe"},
+            {name: "Doctor Who"}
+        ]
+    });
+</script>
+</body>
+</html>
