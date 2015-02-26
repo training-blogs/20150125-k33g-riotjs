@@ -2,6 +2,6 @@
   "name": "riotjs",
   "version": "0.0.0",
   "dependencies": {
-    "riot": "~2.0.8"
+    "riot": "~2.0.11"
   }
 }
